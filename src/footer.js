@@ -1,4 +1,4 @@
-import { red, blue } from "./button-styles";
+import {red, blue} from "./button-styles";
 
 const top = document.createElement("div");
 top.innerText = "Top of Footer";
@@ -11,4 +11,4 @@ const footer = document.createElement("footer");
 footer.appendChild(top);
 footer.appendChild(bottom);
 
-export { top, bottom, footer };
+export {top, bottom, footer};
